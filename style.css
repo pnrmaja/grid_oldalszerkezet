@@ -1,0 +1,45 @@
+
+
+header, nav, article, aside, footer {
+    border:1px solid white;
+    padding:10px;
+    
+}
+body{
+    background-image: url(képek/kep.jpg);
+    width: 90%;
+    max-width:800px;
+    margin:auto;
+    color: white;
+}
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+main{
+    display: grid;
+    
+
+}
+
+
+header{
+    grid-area: h;
+}
+nav{
+    grid-area: n;
+}
+article{
+    grid-area: a;
+}
+footer{
+    grid-area: f;
+}
+#bal{
+    grid-area: b;
+}
+#jobb{
+    grid-area: j;
+}
+
+
